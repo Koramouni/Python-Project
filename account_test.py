@@ -3,6 +3,7 @@ import account as AccountClass
 
 class Test(unittest.TestCase):
     accInfo = AccountClass.account()
+    
     def test_check_password_length(self):
         print("Checking possible passwords\n")
         passwordList = [ 'administrator123', 'abeautifulday', 'astrictboss', 'alovelyhouse' ]
